@@ -13,13 +13,16 @@ int main()
 	//display 'Luasnya adalah = ' + nLuas
 
 
-	int nAlas, nTinggi, nLuas;
+	int nAlas, nTinggi;
+	float nLuas;
 	cout << "Masukan Alasnya= ";
 	cin >> nAlas;
 	cout << "Masukan Tingginya= ";
 	cin >> nTinggi;
-	nLuas = 0, 5 * (nAlas * nTinggi);
+	nLuas = 0.5 * (nAlas * nTinggi);
 	cout << "Luasnya Adalah= " << nLuas << endl;
+
+	int panjang, lebar, luas;
 
 	system("pause");
 
